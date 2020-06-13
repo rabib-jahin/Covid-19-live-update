@@ -16,9 +16,9 @@ background-color: lightskyblue;
 
 }
 .mid{
-margin-top:100px;
-margin-left:250px;
-margin-right: 100px;
+margin-top:30px;
+margin-left:20px;
+width:300px;
 padding:40px 20px 20px 30px;
 border:3px none white;
 text-shadow: red;
@@ -39,6 +39,12 @@ box-shadow:5px 10px gray;
   border-radius:5px;
   box-shadow:0 10px 20px blue;
   float:left;
+  height:130px;
+
+}
+.card{
+
+height:1000px;
 
 }
 .card4{
@@ -58,7 +64,7 @@ background-color: red;
     
    
   }
-  a:focus{
+  a:focuse{
 color:orange;
 
   }
@@ -97,8 +103,9 @@ font-size:20px;
 .input{
  
 
-margin:40px 400px;
-padding-top:30px
+margin-top:40px ;
+margin-left:20px;
+padding-top:30px;
 
 
 }
@@ -141,18 +148,23 @@ color:white;
 
   }
   .list{
-    margin:40px 400px;
+    margin-top:40px ;
+    margin-left:20px;
     background-color: rgb(212, 179, 179);
   border:3px solid orangered;
   box-shadow:red;
   border-radius: 20px;
-  width :400px;
+  width :300px;
 
+  }
+  #navbar{
+background-color:rgb(34, 153, 250) ;
+    
   }
   .list:hover{
 
-    margin:40px 400px;
-   
+    margin-top:40px ;
+    margin-left:20px;
   border:3px solid rgb(212, 179, 179);
   box-shadow:red;
   border-radius: 20px;
