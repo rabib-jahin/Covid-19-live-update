@@ -2,6 +2,7 @@ import React,{useState} from "react"
 import App from "./App"
 import Home from "./home"
 import Bd from "./bd"
+import World from './world'
 import {
     BrowserRouter as Router,
     Switch,
@@ -36,7 +37,12 @@ return <Router> <div>
       <li class="nav-item">
         <a class="nav-link" href="#"><Link to="/bd"> Bangladesh Info</Link></a>
       </li>
-      
+      <li class="nav-item">
+        <a class="nav-link" href="#"><Link to="/world"> World Info</Link></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><Link to="/about"> About</Link></a>
+      </li>
     </ul>
   </div>
 </nav>
@@ -53,6 +59,12 @@ return <Router> <div>
 <Route path="/bd" exact component={Bd}>
 
 </Route>
+<Route path="/world" exact component={World}>
+
+</Route>
+<Route path="/about" exact component={About}>
+
+</Route>
 </Switch>
 </Router>
 }  
@@ -64,4 +76,15 @@ const Homie=()=>{
 
 </div></div>
 }
+const About=()=>{
+  return <div>
+
+  <div class="mid">
+  <p>Name :Rabib Jahin   </p><br/>
+  <p>University:BUET  </p><br/>
+  <p>Email:rabibjahin2000@gmail.com  </p><br/> 
+  </div></div>
+  }
+
+
 export default home;
